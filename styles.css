@@ -1,0 +1,200 @@
+body {
+    background-image: url(./fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Press Start 2P', cursive;
+    display: flex; 
+    margin: 0%;
+
+}
+
+.ventana {
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: red;
+    height: 700px;
+    width: 70%;
+    margin: 100px auto;
+    text-align: center;
+    box-shadow: 10px 20px 10px rgba(0, 0, 0, .8);
+}
+
+.ventana2 {
+    background: url(./gridbox.png);
+    border: 1px solid black;
+    border-radius: 8px;
+    height: 500px;
+    width: 100%;
+    box-shadow: 10px 20px 10px rgba(0, 0, 0, .8);
+}
+
+.ventana3 {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 10px 20px 10px rgba(0, 0, 0, .8);
+}
+
+div .poke-img {
+    width: auto;
+    height: 400px;
+    margin: 5px;
+    border-radius: 50%;
+    border: 2px solid black;
+    box-shadow: 10px 20px 10px rgba(0, 0, 0, .8);
+}
+
+div .poke-img2 {
+    width: auto;
+    height: 150px;
+    margin: 5px;
+    border-radius: 50%;
+    border: 2px solid black;
+    box-shadow: 10px 20px 10px rgba(0, 0, 0, .8);
+}
+
+
+div .img-container {
+    box-sizing: border-box;
+    width: 50%;
+    justify-items: center;
+    margin: 5px;
+    box-shadow: 10px 20px 10px rgba(0, 0, 0, .8);
+}
+
+div .name {
+    border: 1px solid black;
+    margin: 5px;
+    border-radius: 8PX;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, .8);
+}
+
+
+.nombres {
+    margin: 5px auto;
+    background-color: red;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 50%;
+    height: 13%;
+    flex-direction: column;
+    color: white;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, .8);
+}
+
+div .data-poke-name {
+    background-color: red;
+}
+
+.input {
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    box-shadow: 10px 20px 10px rgba(0, 0, 0, .8);
+}
+
+.search {
+    margin: 5px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, .8);
+}
+
+.poke-types div {
+    margin: auto;
+    background-color: white;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 80%;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, .8);
+}
+
+div .poke-types {
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 5px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 8px;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, .8);
+}
+
+.poke-stats div {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 5px;
+    font-size: 18px;
+}
+
+div .stats_container {
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 5px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 8px;
+    flex-direction: column;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, .8);
+}
+
+div .abilities_container {
+    background-color: red;
+    display: flex;
+    max-height: 150px;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 5px;
+    font-size: 9px;
+    border: 2px solid black;
+    border-radius: 8px;
+    flex-direction: column;
+    list-style: none;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, .8);
+}
+
+div .etiquetas {
+    font-size: 18px;
+    border: 2px solid black;
+    margin:  5px;
+    color: white;
+    background-color: red;
+    width: 50%;
+    border-radius: 8px;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, .8);
+}
+
+div .poke_moves {
+    overflow: hidden;
+    overflow-y: scroll;
+    color: white;
+}
+
+div .img-shiny {
+    display: flex;
+    align-content: space-around;
+    margin: auto 13%;
+}
